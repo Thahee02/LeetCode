@@ -48,6 +48,7 @@ class MinStack(object):
             if self.stack[-1] == self.min_stack[-1]:
                 self.min_stack.pop()
             return self.stack.pop()
+    
     def getMin(self):
         return self.min_stack[-1]
 
